@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <title>Simple Navigation Menu</title> 
+  <style>   
+body{
+    background-color: rgb(205, 190, 236);
+}
+header { 
+  display: block; 
+  background: rgb(243, 192, 65); 
+  padding: 10px; 
+  text-align: center; 
+}  
+header span { 
+  display: inline; 
+  color: rgb(6, 10, 221); 
+} 
+.inline-block-menu ul { 
+  list-style: none; 
+  padding: 0; 
+} 
+.inline-block-menu li { 
+  display: inline-block; 
+  margin-right: 10px; 
+} 
+.inline-block-menu a { 
+  text-decoration: none; 
+  padding: 5px; 
+  background: rgb(145, 255, 0); 
+} 
+.float-menu ul { 
+  list-style: none; 
+  padding: 0; 
+} 
+.float-menu li { 
+  float: left; 
+  margin-right: 10px; 
+} 
+.float-menu a { 
+  text-decoration: none; 
+  padding: 5px; 
+  background: rgb(205, 239, 120); 
+} 
+.clear { 
+  clear: both; 
+} 
+</style>
+</head> 
+<body> 
+  <header> 
+  My <span>Website</span> Navigation 
+  </header> 
+  <nav class="inline-block-menu">
+    <ul> 
+      <li><a href="#">Home</a></li> 
+      <li><a href="#">About</a></li> 
+      <li><a href="#">Services</a></li> 
+      <li><a href="#">Contact</a></li> 
+    </ul> 
+  </nav> 
+  <nav class="float-menu"> 
+    <ul> 
+      <li><a href="#">Dashboard</a></li> 
+      <li><a href="#">Profile</a></li> 
+      <li><a href="#">Messages</a></li> 
+      <li><a href="#">Logout</a></li> 
+    </ul> 
+    <div class="clear"></div> 
+  </nav> 
+ 
+</body> 
+</html>

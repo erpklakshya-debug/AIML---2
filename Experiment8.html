@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Experiment - Flexbox Student Profile Card</title> 
+<style> 
+body{ 
+font-family: Arial, sans-serif;  
+margin: 20px; 
+background: #f9f9f9; 
+} 
+    h2{text-align: center;
+       text-decoration: underline;    
+    } 
+    .container{ 
+      display: flex;                  
+      flex-direction: row;            
+      justify-content: center;         
+      margin-left: 80px;
+      margin-right: 80px;   
+      gap: 40px;                      
+      flex-wrap: wrap;  
+      border: 2px solid black;
+      height: 300px;
+    } 
+    .card{ 
+      background: #fff; 
+      border-radius: 8px; 
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+      width: 220px; 
+      text-align: center; 
+      padding: 18px; 
+      height: 200px;
+    } 
+    .avatar{ 
+      width: 70px; height: 70px; 
+      background: #0a69f7; color: #ffffff; 
+      border-radius: 50%; 
+      display: flex; justify-content: center; align-items: center; 
+      font-size: 20px; margin: 0 auto 12px; 
+    } 
+    .name{ font-weight: bold; font-size: 18px; } 
+    .detail{ font-size: 14px; color: #555; margin: 2px 0;
+     } 
+  </style> 
+</head> 
+<body> 
+  <h2>Student Profile Cards</h2> 
+  <div class="container"> 
+    <div class="card"> 
+      <div class="avatar">AY</div> 
+      <div class="name">Akash Yadav</div> 
+      <div class="detail">B.Tech - CSE</div> 
+      <div class="detail">Roll No: 21CS1007</div> 
+      <div class="detail">1st Year</div> 
+    </div> 
+    <div class="card"> 
+      <div class="avatar">LP</div> 
+      <div class="name">LAKSHYA PANDEY</div> 
+      <div class="detail">B.Tech - AIML</div> 
+      <div class="detail">Roll No: 21AI1012</div> 
+      <div class="detail">1st Year</div> 
+    </div> 
+    <div class="card"> 
+      <div class="avatar">SS</div> 
+      <div class="name">SRIJAN SUKLA</div> 
+      <div class="detail">B.Tech - DS</div> 
+      <div class="detail">Roll No: 21DS1009</div> 
+      <div class="detail">1st Year</div> 
+    </div> 
+  </div> 
+</body> 
+</html> 
