@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #111;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        .product-card {
+            background-color: white;
+            width: 700px;
+            display: flex;
+            gap: 30px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .product-card img {
+            width: 250px;
+            border-radius: 10px;
+        }
+
+        .details h2 {
+            margin-top: 0;
+        }
+
+        .price {
+            font-size: 24px;
+            color: #e74c3c;
+            margin: 10px 0;
+        }
+
+        .details ul {
+            padding-left: 20px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #111;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Online Store</h1>
+</header>
+
+<div class="container">
+    <div class="product-card">
+        <img src="https://picsum.photos/300/300" alt="Product Image">
+
+        <div class="details">
+            <h2>Wireless Headphones</h2>
+            <p class="price">₹2,999</p>
+
+            <p>High-quality wireless headphones with noise cancellation.</p>
+
+            <ul>
+                <li>Bluetooth 5.0</li>
+                <li>20 Hours Battery</li>
+                <li>Comfort Fit</li>
+            </ul>
+
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
