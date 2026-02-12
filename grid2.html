@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Modern Grid Page</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #141E30, #243B55);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 200px);
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.1);
+        }
+
+        .card h2 {
+            margin: 0 0 10px 0;
+        }
+
+        .card p {
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <h2>HTML</h2>
+            <p>Structure of Web Pages</p>
+        </div>
+
+        <div class="card">
+            <h2>CSS</h2>
+            <p>Styling and Design</p>
+        </div>
+
+        <div class="card">
+            <h2>C++</h2>
+            <p>Programming Logic</p>
+        </div>
+
+        <div class="card">
+            <h2>Debate</h2>
+            <p>Public Speaking Skills</p>
+        </div>
+
+        <div class="card">
+            <h2>Projects</h2>
+            <p>Practical Implementation</p>
+        </div>
+
+        <div class="card">
+            <h2>Learning</h2>
+            <p>Continuous Growth</p>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
