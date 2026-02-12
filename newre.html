@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Page</title>
+    <style>
+        body {
+            margin:0;
+            font-family:Arial;
+            background:#141414;
+            color:white;
+        }
+
+        .container {
+            display:grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+            gap:20px;
+            padding:20px;
+        }
+
+        .movie {
+            background:#222;
+            padding:15px;
+            border-radius:8px;
+            text-align:center;
+        }
+
+        img {
+            width:100%;
+            border-radius:8px;
+        }
+    </style>
+</head>
+<body>
+
+<h1 style="text-align:center;">Movie Collection</h1>
+
+<div class="container">
+    <div class="movie">
+        <img src="https://picsum.photos/200/300?1">
+        <h3>Movie 1</h3>
+    </div>
+
+    <div class="movie">
+        <img src="https://picsum.photos/200/300?2">
+        <h3>Movie 2</h3>
+    </div>
+</div>
+
+</body>
+</html>
